@@ -16,9 +16,9 @@ var TaskForm = React.createClass({
 
   render: function() {
     return (
-      <form className="taskForm" onSubmit={this.handleSubmit}>
-        <input type="text" placeholder="Carpe diem. . ." ref="text" />
-        <input type="submit" value="Post" />
+      <form className="taskForm form-inline" onSubmit={this.handleSubmit}>
+        <input type="text" className="form-group" placeholder="Carpe diem. . ." ref="text" />
+        <input type="submit" className="btn btn-primary" value="Post" />
       </form>
     );
   }
@@ -83,15 +83,22 @@ var TaskList = React.createClass({
     var taskNodes = this.props.data.map(function (task) {
       return (
         <Task>
-          {task.text}
+          <td>
+            {task.text}
+          </td>
+          <td>
+            Test
+          </td>
         </Task>
       );
     });
 
     return (
-      <div className="taskList">
-        {taskNodes}
-      </div>
+      <table className="taskList table table-bordered">
+        <tbody>
+          {taskNodes}
+        </tbody>
+      </table>
     );
   }
 })
@@ -99,9 +106,9 @@ var TaskList = React.createClass({
 var Task = React.createClass({
   render: function() {
     return (
-      <div className="task">
+      <tr className="task">
         {this.props.children}
-      </div>
+      </tr>
     )
   }
 })

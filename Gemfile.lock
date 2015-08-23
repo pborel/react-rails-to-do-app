@@ -133,6 +133,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails
   bootstrap-sass (~> 3.3.5)
   pg
   rails (= 4.2.3)
