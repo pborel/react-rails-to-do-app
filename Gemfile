@@ -7,6 +7,7 @@ gem 'rails-api'
 
 gem 'spring', :group => :development
 
+gem 'react-rails', '~> 1.0'
 
 gem 'pg'
 

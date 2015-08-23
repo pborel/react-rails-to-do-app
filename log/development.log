@@ -509,3 +509,31 @@ Started GET "/tasks" for ::1 at 2015-08-22 22:38:58 -0700
 Processing by TasksController#index as */*
   [1m[35mTask Load (0.8ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."status" = $1  [["status", "f"]]
 Completed 200 OK in 43ms (Views: 16.4ms | ActiveRecord: 21.5ms)
+
+
+Started GET "/tasks" for ::1 at 2015-08-22 22:44:07 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TasksController#index as */*
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant ActiveRecord::API):
+  app/models/task.rb:1:in `<top (required)>'
+  app/controllers/tasks_controller.rb:4:in `index'
+
+
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /Users/apprentice/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (32.2ms)
+
+
+Started GET "/tasks" for ::1 at 2015-08-22 22:44:25 -0700
+Processing by TasksController#index as */*
+  [1m[35mTask Load (0.5ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."status" = $1  [["status", "f"]]
+Completed 200 OK in 44ms (Views: 21.5ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/tasks" for ::1 at 2015-08-22 22:44:47 -0700
+Processing by TasksController#index as */*
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."status" = $1[0m  [["status", "f"]]
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
