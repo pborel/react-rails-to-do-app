@@ -1,0 +1,21 @@
+<html>
+  <head>
+
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/application.css">
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/application.js"></script>
+    <script type="text/javascript" src="javascripts/handlebars.js"></script>
+  </head>
+
+  <body>
+    <div id="page-container">
+      <script id="task" type="text/x-handlebars-template">
+        {{#each this}}
+          <div>{{body}}</div>
+        {{/each}}
+      </script>
+
+    </div>
+  </body>
+</html>
