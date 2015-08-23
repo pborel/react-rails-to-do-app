@@ -8132,3 +8132,1219 @@ Processing by TasksController#index as JSON
   Parameters: {"_"=>"1440314524387"}
   [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
 Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641016" for ::1 at 2015-08-23 00:24:01 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641016"}
+  [1m[35mTask Load (0.5ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 13ms (Views: 8.3ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/tasks?_=1440314641017" for ::1 at 2015-08-23 00:24:03 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641017"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/tasks" for ::1 at 2015-08-23 00:24:03 -0700
+Processing by TasksController#create as JSON
+  Parameters: {"text"=>"asf"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "tasks" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["text", "asf"], ["created_at", "2015-08-23 07:24:03.171785"], ["updated_at", "2015-08-23 07:24:03.171785"]]
+  [1m[35m (1.0ms)[0m  COMMIT
+Completed 200 OK in 10ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/tasks?_=1440314641018" for ::1 at 2015-08-23 00:24:05 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641018"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641019" for ::1 at 2015-08-23 00:24:07 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641019"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641020" for ::1 at 2015-08-23 00:24:09 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641020"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641021" for ::1 at 2015-08-23 00:24:11 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641021"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641022" for ::1 at 2015-08-23 00:24:13 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641022"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641023" for ::1 at 2015-08-23 00:24:15 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641023"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641024" for ::1 at 2015-08-23 00:24:17 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641024"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641025" for ::1 at 2015-08-23 00:24:19 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641025"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641026" for ::1 at 2015-08-23 00:24:21 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641026"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641027" for ::1 at 2015-08-23 00:24:23 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641027"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641028" for ::1 at 2015-08-23 00:24:25 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641028"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 32ms (Views: 31.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641029" for ::1 at 2015-08-23 00:24:27 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641029"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641030" for ::1 at 2015-08-23 00:24:29 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641030"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641031" for ::1 at 2015-08-23 00:24:31 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641031"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641032" for ::1 at 2015-08-23 00:24:33 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641032"}
+  [1m[36mTask Load (0.5ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tasks?_=1440314641033" for ::1 at 2015-08-23 00:24:35 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641033"}
+  [1m[35mTask Load (0.4ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tasks?_=1440314641034" for ::1 at 2015-08-23 00:24:37 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641034"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641035" for ::1 at 2015-08-23 00:24:39 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641035"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641036" for ::1 at 2015-08-23 00:24:41 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641036"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641037" for ::1 at 2015-08-23 00:24:43 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641037"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641038" for ::1 at 2015-08-23 00:24:45 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641038"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/tasks" for ::1 at 2015-08-23 00:24:45 -0700
+Processing by TasksController#create as JSON
+  Parameters: {"text"=>"safasd"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "tasks" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["text", "safasd"], ["created_at", "2015-08-23 07:24:45.826072"], ["updated_at", "2015-08-23 07:24:45.826072"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Completed 200 OK in 5ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/tasks?_=1440314641039" for ::1 at 2015-08-23 00:24:47 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641039"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314641040" for ::1 at 2015-08-23 00:24:49 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314641040"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314690750" for ::1 at 2015-08-23 00:24:50 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314690750"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314690751" for ::1 at 2015-08-23 00:24:52 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314690751"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314690752" for ::1 at 2015-08-23 00:24:54 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314690752"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/tasks?_=1440314695244" for ::1 at 2015-08-23 00:24:55 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695244"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/tasks" for ::1 at 2015-08-23 00:24:56 -0700
+Processing by TasksController#create as JSON
+  Parameters: {"text"=>"asdf"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "tasks" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["text", "asdf"], ["created_at", "2015-08-23 07:24:56.769489"], ["updated_at", "2015-08-23 07:24:56.769489"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 5ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/tasks" for ::1 at 2015-08-23 00:24:56 -0700
+Processing by TasksController#index as JSON
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695245" for ::1 at 2015-08-23 00:24:57 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695245"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695246" for ::1 at 2015-08-23 00:24:59 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695246"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 37ms (Views: 36.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695247" for ::1 at 2015-08-23 00:25:01 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695247"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695248" for ::1 at 2015-08-23 00:25:03 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695248"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695249" for ::1 at 2015-08-23 00:25:05 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695249"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695250" for ::1 at 2015-08-23 00:25:07 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695250"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695251" for ::1 at 2015-08-23 00:25:09 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695251"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695252" for ::1 at 2015-08-23 00:25:11 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695252"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695253" for ::1 at 2015-08-23 00:25:13 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695253"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695254" for ::1 at 2015-08-23 00:25:15 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695254"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695255" for ::1 at 2015-08-23 00:25:17 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695255"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695256" for ::1 at 2015-08-23 00:25:19 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695256"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695257" for ::1 at 2015-08-23 00:25:21 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695257"}
+  [1m[36mTask Load (0.8ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tasks?_=1440314695258" for ::1 at 2015-08-23 00:25:23 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695258"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695259" for ::1 at 2015-08-23 00:25:27 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695259"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695260" for ::1 at 2015-08-23 00:25:30 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695260"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695261" for ::1 at 2015-08-23 00:25:32 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695261"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695262" for ::1 at 2015-08-23 00:25:35 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695262"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695263" for ::1 at 2015-08-23 00:25:38 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695263"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695264" for ::1 at 2015-08-23 00:25:41 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695264"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695265" for ::1 at 2015-08-23 00:25:44 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695265"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695266" for ::1 at 2015-08-23 00:25:47 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695266"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695267" for ::1 at 2015-08-23 00:25:50 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695267"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695268" for ::1 at 2015-08-23 00:25:53 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695268"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695269" for ::1 at 2015-08-23 00:25:57 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695269"}
+  [1m[36mTask Load (0.4ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tasks?_=1440314695270" for ::1 at 2015-08-23 00:26:00 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695270"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695271" for ::1 at 2015-08-23 00:26:03 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695271"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695272" for ::1 at 2015-08-23 00:26:06 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695272"}
+  [1m[35mTask Load (0.4ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tasks?_=1440314695273" for ::1 at 2015-08-23 00:26:09 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695273"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695274" for ::1 at 2015-08-23 00:26:12 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695274"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695275" for ::1 at 2015-08-23 00:26:15 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695275"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695276" for ::1 at 2015-08-23 00:26:18 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695276"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695277" for ::1 at 2015-08-23 00:26:21 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695277"}
+  [1m[36mTask Load (0.6ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tasks?_=1440314695278" for ::1 at 2015-08-23 00:26:24 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695278"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695279" for ::1 at 2015-08-23 00:26:27 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695279"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695280" for ::1 at 2015-08-23 00:26:30 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695280"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695281" for ::1 at 2015-08-23 00:26:33 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695281"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695282" for ::1 at 2015-08-23 00:26:36 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695282"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695283" for ::1 at 2015-08-23 00:26:39 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695283"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695284" for ::1 at 2015-08-23 00:26:42 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695284"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695285" for ::1 at 2015-08-23 00:26:45 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695285"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695286" for ::1 at 2015-08-23 00:26:48 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695286"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695287" for ::1 at 2015-08-23 00:26:51 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695287"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695288" for ::1 at 2015-08-23 00:26:54 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695288"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695289" for ::1 at 2015-08-23 00:26:57 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695289"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695290" for ::1 at 2015-08-23 00:27:00 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695290"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695291" for ::1 at 2015-08-23 00:27:03 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695291"}
+  [1m[36mTask Load (0.5ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tasks?_=1440314695292" for ::1 at 2015-08-23 00:27:06 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695292"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695293" for ::1 at 2015-08-23 00:27:09 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695293"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695294" for ::1 at 2015-08-23 00:27:12 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695294"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695295" for ::1 at 2015-08-23 00:27:15 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695295"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695296" for ::1 at 2015-08-23 00:27:18 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695296"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695297" for ::1 at 2015-08-23 00:27:21 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695297"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695298" for ::1 at 2015-08-23 00:27:24 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695298"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695299" for ::1 at 2015-08-23 00:27:27 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695299"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695300" for ::1 at 2015-08-23 00:27:30 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695300"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695301" for ::1 at 2015-08-23 00:27:33 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695301"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695302" for ::1 at 2015-08-23 00:27:36 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695302"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695303" for ::1 at 2015-08-23 00:27:39 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695303"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695304" for ::1 at 2015-08-23 00:27:42 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695304"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695305" for ::1 at 2015-08-23 00:27:45 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695305"}
+  [1m[36mTask Load (0.5ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 46ms (Views: 45.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tasks?_=1440314695306" for ::1 at 2015-08-23 00:27:48 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695306"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695307" for ::1 at 2015-08-23 00:27:51 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695307"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695308" for ::1 at 2015-08-23 00:27:54 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695308"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695309" for ::1 at 2015-08-23 00:27:57 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695309"}
+  [1m[36mTask Load (0.5ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tasks?_=1440314695310" for ::1 at 2015-08-23 00:28:00 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695310"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695311" for ::1 at 2015-08-23 00:28:03 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695311"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695312" for ::1 at 2015-08-23 00:28:05 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695312"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695313" for ::1 at 2015-08-23 00:28:08 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695313"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695314" for ::1 at 2015-08-23 00:28:11 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695314"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695315" for ::1 at 2015-08-23 00:28:14 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695315"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695316" for ::1 at 2015-08-23 00:28:17 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695316"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695317" for ::1 at 2015-08-23 00:28:20 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695317"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695318" for ::1 at 2015-08-23 00:28:23 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695318"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695319" for ::1 at 2015-08-23 00:28:26 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695319"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695320" for ::1 at 2015-08-23 00:28:29 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695320"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695321" for ::1 at 2015-08-23 00:28:32 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695321"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695322" for ::1 at 2015-08-23 00:28:35 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695322"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695323" for ::1 at 2015-08-23 00:28:38 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695323"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695324" for ::1 at 2015-08-23 00:28:41 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695324"}
+  [1m[35mTask Load (0.4ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tasks?_=1440314695325" for ::1 at 2015-08-23 00:28:44 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695325"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695326" for ::1 at 2015-08-23 00:28:47 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695326"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695327" for ::1 at 2015-08-23 00:28:51 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695327"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695328" for ::1 at 2015-08-23 00:28:54 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695328"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695329" for ::1 at 2015-08-23 00:28:56 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695329"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695330" for ::1 at 2015-08-23 00:28:59 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695330"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695331" for ::1 at 2015-08-23 00:29:01 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695331"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314695332" for ::1 at 2015-08-23 00:29:04 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314695332"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314951002" for ::1 at 2015-08-23 00:29:11 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314951002"}
+  [1m[35mTask Load (0.5ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 11ms (Views: 6.8ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/tasks?_=1440314951003" for ::1 at 2015-08-23 00:29:13 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314951003"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314951004" for ::1 at 2015-08-23 00:29:15 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314951004"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314951005" for ::1 at 2015-08-23 00:29:17 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314951005"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314951006" for ::1 at 2015-08-23 00:29:19 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314951006"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314951007" for ::1 at 2015-08-23 00:29:21 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314951007"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314951008" for ::1 at 2015-08-23 00:29:23 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314951008"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965063" for ::1 at 2015-08-23 00:29:25 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965063"}
+  [1m[36mTask Load (0.4ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tasks?_=1440314965064" for ::1 at 2015-08-23 00:29:27 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965064"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965065" for ::1 at 2015-08-23 00:29:29 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965065"}
+  [1m[36mTask Load (0.5ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tasks?_=1440314965066" for ::1 at 2015-08-23 00:29:31 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965066"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965067" for ::1 at 2015-08-23 00:29:33 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965067"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965068" for ::1 at 2015-08-23 00:29:35 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965068"}
+  [1m[35mTask Load (0.4ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tasks?_=1440314965069" for ::1 at 2015-08-23 00:29:37 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965069"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965070" for ::1 at 2015-08-23 00:29:40 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965070"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965071" for ::1 at 2015-08-23 00:29:44 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965071"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965072" for ::1 at 2015-08-23 00:29:47 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965072"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965073" for ::1 at 2015-08-23 00:29:49 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965073"}
+  [1m[36mTask Load (0.4ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tasks?_=1440314965074" for ::1 at 2015-08-23 00:29:51 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965074"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965075" for ::1 at 2015-08-23 00:29:54 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965075"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 40ms (Views: 39.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965076" for ::1 at 2015-08-23 00:29:57 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965076"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965077" for ::1 at 2015-08-23 00:30:00 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965077"}
+  [1m[36mTask Load (1.2ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/tasks?_=1440314965078" for ::1 at 2015-08-23 00:30:03 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965078"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965079" for ::1 at 2015-08-23 00:30:06 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965079"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965080" for ::1 at 2015-08-23 00:30:09 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965080"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965081" for ::1 at 2015-08-23 00:30:13 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965081"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965082" for ::1 at 2015-08-23 00:30:16 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965082"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965083" for ::1 at 2015-08-23 00:30:19 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965083"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965084" for ::1 at 2015-08-23 00:30:21 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965084"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965085" for ::1 at 2015-08-23 00:30:24 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965085"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965086" for ::1 at 2015-08-23 00:30:27 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965086"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965087" for ::1 at 2015-08-23 00:30:30 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965087"}
+  [1m[36mTask Load (0.4ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tasks?_=1440314965088" for ::1 at 2015-08-23 00:30:33 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965088"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965089" for ::1 at 2015-08-23 00:30:36 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965089"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965090" for ::1 at 2015-08-23 00:30:39 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965090"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965091" for ::1 at 2015-08-23 00:30:42 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965091"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965092" for ::1 at 2015-08-23 00:30:45 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965092"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965093" for ::1 at 2015-08-23 00:30:48 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965093"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965094" for ::1 at 2015-08-23 00:30:52 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965094"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440314965095" for ::1 at 2015-08-23 00:30:55 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965095"}
+  [1m[36mTask Load (0.4ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 47ms (Views: 46.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tasks?_=1440314965096" for ::1 at 2015-08-23 00:30:58 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440314965096"}
+  [1m[35mTask Load (0.4ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tasks?_=1440315059291" for ::1 at 2015-08-23 00:30:59 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440315059291"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440315059292" for ::1 at 2015-08-23 00:31:01 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440315059292"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/tasks" for ::1 at 2015-08-23 00:31:02 -0700
+Processing by TasksController#create as JSON
+  Parameters: {"text"=>"fdsa"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "tasks" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["text", "fdsa"], ["created_at", "2015-08-23 07:31:02.375011"], ["updated_at", "2015-08-23 07:31:02.375011"]]
+  [1m[36m (15.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 63ms (ActiveRecord: 16.9ms)
+
+
+Started GET "/tasks" for ::1 at 2015-08-23 00:31:02 -0700
+Processing by TasksController#index as JSON
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440315059293" for ::1 at 2015-08-23 00:31:03 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440315059293"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/tasks" for ::1 at 2015-08-23 00:31:03 -0700
+Processing by TasksController#create as JSON
+  Parameters: {"text"=>"asdfa"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "tasks" ("text", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["text", "asdfa"], ["created_at", "2015-08-23 07:31:03.781433"], ["updated_at", "2015-08-23 07:31:03.781433"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/tasks" for ::1 at 2015-08-23 00:31:03 -0700
+Processing by TasksController#index as JSON
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440315065506" for ::1 at 2015-08-23 00:31:05 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440315065506"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440315065507" for ::1 at 2015-08-23 00:31:07 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440315065507"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks?_=1440315065508" for ::1 at 2015-08-23 00:31:09 -0700
+Processing by TasksController#index as JSON
+  Parameters: {"_"=>"1440315065508"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)

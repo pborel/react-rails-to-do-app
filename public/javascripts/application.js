@@ -71,8 +71,8 @@ var ToDoList = React.createClass({
     return (
       <div className="toDoList">
         <h1>Tasks</h1>
-        <TaskList data={this.state.data} />
         <TaskForm onTaskSubmit={this.handleTaskSubmit} />
+        <TaskList data={this.state.data} />
       </div>
     );
   }
@@ -100,7 +100,7 @@ var Task = React.createClass({
   render: function() {
     return (
       <div className="task">
-        {this.props.text}
+        {this.props.children}
       </div>
     )
   }

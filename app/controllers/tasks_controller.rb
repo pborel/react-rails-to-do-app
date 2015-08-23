@@ -7,9 +7,6 @@ class TasksController < ApplicationController
   end
 
   def create
-    p "*"*50
-    p params
-    p "*"*50
     task = Task.create(text: params[:text])
 
     redirect_to tasks_path
