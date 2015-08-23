@@ -1,12 +1,16 @@
 class TasksController < ApplicationController
 
   def index
-    @tasks = Task.where(status: false)
+    # @tasks = Task.where(status: false)
+    @tasks = Task.all
     render json: @tasks
   end
 
   def create
-    task = Task.create(task_params)
+    p "*"*50
+    p params
+    p "*"*50
+    task = Task.create(text: params[:text])
 
     redirect_to tasks_path
   end
@@ -28,9 +32,9 @@ class TasksController < ApplicationController
     redirect_to tasks_path
   end
 
-  private
+  # private
 
-    def task_params
-      params.require(:task).permit(:body)
-    end
+  #   def task_params
+  #     params.require(:task).permit(:text)
+  #   end
 end
