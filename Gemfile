@@ -5,13 +5,15 @@ gem 'rails', '4.2.3'
 
 gem 'rails-api'
 
-gem 'spring', :group => :development
+gem 'spring', group: :development
 
+gem 'bootstrap-sass', '~> 3.3.5'
+gem 'sass-rails', '>= 3.2'
 gem 'react-rails', '~> 1.0'
 
 gem 'pg'
 
-
+gem 'rails_12factor', group: :production
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

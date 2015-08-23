@@ -1,3 +1,29 @@
+var TaskForm = React.createClass({
+  handleSubmit: function(e) {
+    e.preventDefault()
+
+    // var status = React.findDOMNode(this.refs.status)
+    var text = React.findDOMNode(this.refs.text).value.trim();
+
+    if (!text) {
+      return;
+    }
+
+    this.props.onTaskSubmit({text: text});
+    React.findDOMNode(this.refs.text).value = '';
+    return;
+  },
+
+  render: function() {
+    return (
+      <form className="taskForm" onSubmit={this.handleSubmit}>
+        <input type="text" placeholder="Carpe diem. . ." ref="text" />
+        <input type="submit" value="Post" />
+      </form>
+    );
+  }
+});
+
 var ToDoList = React.createClass({
   loadTasksFromServer: function() {
     $.ajax({
@@ -25,7 +51,7 @@ var ToDoList = React.createClass({
       data: task,
       success: function(data) {
         this.setState({data: data})
-      }.bind(this)
+      }.bind(this),
       error: function(xhr, status, err) {
         console.error(this.props.url, status, err.toString())
       }.bind(this)
@@ -51,3 +77,36 @@ var ToDoList = React.createClass({
     );
   }
 });
+
+var TaskList = React.createClass({
+  render: function() {
+    var taskNodes = this.props.data.map(function (task) {
+      return (
+        <Task>
+          {task.text}
+        </Task>
+      );
+    });
+
+    return (
+      <div className="taskList">
+        {taskNodes}
+      </div>
+    );
+  }
+})
+
+var Task = React.createClass({
+  render: function() {
+    return (
+      <div className="task">
+        {this.props.text}
+      </div>
+    )
+  }
+})
+
+React.render(
+  <ToDoList url="http://localhost:3000/tasks" pollInterval={2000} />,
+  document.getElementById('content')
+)
