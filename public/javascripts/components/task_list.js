@@ -1,17 +1,24 @@
 var TaskList = React.createClass({
-  redner: function() {
+  render: function() {
     var taskNodes = this.props.data.map(function (task) {
       return (
         <Task>
-          {task.text}
+          <td>
+            {task.text}
+          </td>
+          <td>
+            <button onClick={task.edit} className="btn btn-success btn-sm" />
+          </td>
         </Task>
       );
     });
 
     return (
-      <div className="taskList">
-        {taskNodes}
-      </div>
+      <table className="taskList table table-bordered">
+        <tbody>
+          {taskNodes}
+        </tbody>
+      </table>
     );
   }
 })

@@ -16,7 +16,7 @@ var TaskForm = React.createClass({
 
   render: function() {
     return (
-      <form className="taskForm" onSubmit=(this.handleSubmit)>
+      <form className="taskForm" onSubmit={this.handleSubmit}>
         <input type="text" placeholder="Carpe diem. . ." ref="text" />
         <input type="submit" value="Post" />
       </form>

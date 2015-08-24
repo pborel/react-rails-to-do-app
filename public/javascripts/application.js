@@ -78,16 +78,17 @@ var ToDoList = React.createClass({
   }
 });
 
+// Parent of Task
 var TaskList = React.createClass({
   render: function() {
     var taskNodes = this.props.data.map(function (task) {
       return (
-        <Task>
+        <Task onTaskEdit={this.handleTaskEdit}>
           <td>
             {task.text}
           </td>
           <td>
-            Test
+            <button onClick={task.complete} className="btn" />
           </td>
         </Task>
       );
@@ -103,13 +104,24 @@ var TaskList = React.createClass({
   }
 })
 
+// Child of TaskList
 var Task = React.createClass({
+  getInitialState: function() {
+    return {completed: false};
+  },
+
+  complete: function() {
+    alert("completed");
+    this.setState({completed: true});
+  },
+
   render: function() {
+    var test = this.state.completed? 'complete' : 'not complete';
     return (
       <tr className="task">
         {this.props.children}
       </tr>
-    )
+    );
   }
 })
 
